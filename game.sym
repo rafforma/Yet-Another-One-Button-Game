@@ -1,0 +1,248 @@
+.label sprite_dir_x=$3922
+.label sprite_dir_y=$393b
+.label savea=$efc
+.label sprite_pos_old_x_lo=$3a1c
+.label model_alloc=$1899 {
+  .label err=$18bb
+}
+.label game_sprite_anim_spawn=$d81 {
+}
+.label score=$3b4b
+.label sprite_list=$3872
+.label game_idx_lo=$e21
+.label get_char_in_backdrop=$80e {
+}
+.label sprite_sort=$18be {
+}
+.label savex=$efd
+.label game_sprite_state_table_lo=$d77
+.label calc_raster=$10ac {
+  .label next=$10ca
+  .label calc_raster_band_2=$10f7
+  .label next1=$10f9
+  .label ok1=$1111
+  .label nnk1=$1107
+  .label leave=$1114
+  .label nnk=$10d6
+  .label ok=$10e0
+  .label calc_raster_band_1=$10c8
+}
+.label hex=$2fe6
+.label sprite_pos_y_hi=$3a03
+.label bufferid=$365f
+.label savey=$efe
+.label level_1=$3060
+.label default_callback=$17d2 {
+}
+.label lastYcoord_1=$fea
+.label lastYcoord_2=$feb
+.label backdrop=$4de4
+.label modelid=$1898
+.label sprite_w_pos_y_lo=$39ea
+.label sprite_image_id=$3954
+.label sprite_anim_id=$3acb
+.label bucket=$3770
+.label getjoy=$ebe {
+}
+.label sprite_pos_x_lo=$3986
+.label subtile=$3b4a
+.label charset=$3b4f
+.label mygameover=$ff1 {
+}
+.label mod8=$355c
+.label game_put_enemy=$e25 {
+  .label go_with_the_spawn=$e65
+  .label l1=$eb2
+  .label leave=$eaa
+  .label cont=$e25
+  .label compare_lo_byte=$e5c
+}
+.label draw_room=$300f {
+  .label next_row=$3024
+  .label next_char=$3026
+}
+.label sprite_frame_max_delay=$3ab2
+.label game_time_lo=$e24
+.label sprite_last_frame=$38f0
+.label sprites=$3b4f
+.label sprite_erase_collision_map=$2ec0 {
+  .label next=$2ec2
+  .label cc=$2ecb
+  .label select_next=$2f24
+  .label found=$2ecf
+  .label leave=$2f28
+  .label cont=$2ed6
+  .label nrow=$2f0f
+}
+.label gmt=$ff0
+.label f_raster_1=$fed
+.label f_raster_2=$fef
+.label sprite_frame_callback_lo=$3afd
+.label sprite_update=$2def {
+  .label next=$2dfc
+  .label nn=$2ebb
+  .label select_sprites=$2ebf
+  .label add_sprite_to_bucket=$2e5f
+  .label leave=$2e09
+  .label no_vert_move=$2e31
+  .label dealloc=$2e3c
+  .label frame_no_change=$2e92
+  .label cont=$2e4e
+  .label check_die=$2eb2
+}
+.label bucketVal=$3661
+.label sprite_count=$3870
+.label screen_table=$33c0
+.label update_player=$1751 {
+  .label none=$17d1
+  .label check_press=$1783
+}
+.label gameover=$88f
+.label game_sprite_anim_attack=$de1 {
+}
+.label rast_flag_2=$fee
+.label rast_flag_1=$fec
+.label sprite_cur_frame=$3909
+.label sprite_pos_old_y_lo=$3a4e
+.label game_sprite_anim_die=$da1 {
+}
+.label bucketNext=$36bb
+.label vblank=$eb3 {
+  .label L2=$eb8
+}
+.label sprite_w_image_id=$396d
+.label copyscreen=$84c {
+  .label rep1=$87e
+  .label rep=$853
+}
+.label hw_draw_sprite=$1115 {
+  .label imposta_sprite_8_16=$1558 {
+  }
+  .label sp11=$160e {
+  }
+  .label sp10=$15ce {
+  }
+  .label sp13=$168e {
+  }
+  .label sp12=$164e {
+  }
+  .label setok1=$1502
+  .label sp15=$170e {
+  }
+  .label sp14=$16ce {
+  }
+  .label setupirq=$1548
+  .label setok=$153f
+  .label sp8=$1558 {
+  }
+  .label sp9=$158e {
+  }
+}
+.label gameover_r=$3210
+.label sprite_w_list=$388b
+.label model_update=$2dcc {
+  .label next=$2dce
+  .label cc=$2dd7
+  .label found=$2ddb
+  .label leave=$2dee
+  .label callback=$2de8
+}
+.label game_sprite_anim_pain=$e01 {
+}
+.label v1=$890
+.label game_sprite_anim_walk=$dc1 {
+}
+.label spawn_enemy=$17f3 {
+  .label leave=$181e
+}
+.label decn=$2fda {
+}
+.label mody=$2dcb
+.label sprite_pos_old_x_hi=$3a35
+.label sprite_timeout=$3b2f
+.label modx=$2dca
+.label sprite_w_pos_x_lo=$399f
+.label main=$f11 {
+  .label l1=$fe6
+  .label mainloop=$f7f
+  .label copysprite=$f36
+}
+.label screen1_table=$33f4
+.label pressed_time=$3660
+.label bullet_list=$4d90
+.label game_idx_hi=$e22
+.label game_sprite_state_table_hi=$d7c
+.label sprite_pos_y_lo=$39d1
+.label sprite_frame_delay=$3a99
+.label scrolly=$3b49
+.label sprite_type=$38be
+.label bullet_num=$4d8f
+.label check_enemy_bullet_collision=$2f2e {
+  .label nohit=$2f6c
+  .label ok=$2f31
+}
+.label backdrop_table=$3428
+.label pause=$1750
+.label sprite_first_frame=$38d7
+.label bullid=$2f29
+.label sprite_w_count=$3871
+.label sprite_free_list=$38a4
+.label spawn_coin=$17e0 {
+  .label leave=$17f2
+}
+.label model_set_anim=$1850 {
+}
+.label sprite_state=$3a80
+.label x0=$2f2a
+.label sprite_pos_x_hi=$39b8
+.label x1=$2f2b
+.label sprite_collision=$2f72 {
+  .label next=$2f74
+  .label select_next=$2fa5
+  .label found=$2f84
+  .label hitit=$2fa9
+  .label fine=$2fca
+  .label leave=$2f81
+}
+.label playerid=$3b48
+.label addn=$2fcc {
+}
+.label game_time_hi=$e23
+.label sprite_model_id=$3ae4
+.label initraster=$ecc {
+}
+.label spawn_bullet=$183d {
+  .label leave=$184f
+}
+.label spawn_player=$17d6 {
+  .label leave=$17de
+}
+.label sprite_frame_callback_hi=$3b16
+.label cursorx=$365d
+.label cursory=$365e
+.label sprite_first_free=$38bd
+.label cachebuff=$4da4
+.label clearscreen=$82c {
+  .label rep=$830
+}
+.label bucketSpid=$3715
+.label joy=$365c
+.label y0=$2f2c
+.label y1=$2f2d
+.label walk_player=$17df {
+}
+.label lines=$88e
+.label brkirq=$eff
+.label sprite_pos_old_y_hi=$3a67
+.label div8=$345c
+.label counter=$2fcb
+.label print=$2ff6 {
+}
+.label bucketIdx=$376f
+.label nspawn=$3b4d
+.label irq1=$f00 {
+  .label irq1_nonewsprites=$f0b
+  .label irq1_d015value=$f0b {
+  }
+}
+.label sprupdateflag=$892
